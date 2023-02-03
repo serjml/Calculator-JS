@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url('../fonts/geometria-bold.eot');
+  src: url('../fonts/geometria-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/geometria-bold.woff2') format('woff2'),
+    url('../fonts/geometria-bold.woff') format('woff'),
+    url('../fonts/geometria-bold.ttf') format('truetype'),
+    url('../fonts/geometria-bold.svg#geometria-bold') format('svg');
+}
+
+@font-face {
+  font-family: 'Geometria-Medium';
+  src: url('../fonts/geometria-medium.eot');
+  src: url('../fonts/geometria-medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/geometria-medium.woff2') format('woff2'),
+    url('../fonts/geometria-medium.woff') format('woff'),
+    url('../fonts/geometria-medium.ttf') format('truetype'),
+    url('../fonts/geometria-medium.svg#geometria-medium') format('svg');
+}
