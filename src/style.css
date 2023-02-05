@@ -17,3 +17,111 @@
     url('./assets/fonts/geometria-medium.ttf') format('truetype'),
     url('./assets/fonts/geometria-medium.svg#geometria-medium') format('svg');
 }
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffa1a1;
+  font-family: 'Geometria', sans-serif;
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 8rem;
+  color: #f2f2f2;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 61.6rem;
+  height: 87.6rem;
+  background-color: #ffffff;
+  border-radius: 1.8rem;
+  opacity: 0.2;
+  backdrop-filter: blur(0.2rem);
+}
+
+.calculator {
+  width: 55.4rem;
+  height: 80rem;
+  position: absolute;
+  padding: 1.6rem 4.7rem 4.4rem;
+  background: linear-gradient(155.23deg, #28518e 0%, #3a77d1 100%);
+  box-shadow: 0px 82px 158px rgba(0, 0, 0, 0.35), 0px 24.7206px 47.6324px rgba(0, 0, 0, 0.228056),
+    0px 10.2677px 19.7841px rgba(0, 0, 0, 0.175), 0px 3.71362px 7.1555px rgba(0, 0, 0, 0.121944);
+  border-radius: 1.8rem;
+}
+
+.calculator__enter {
+  height: 11.7rem;
+  max-width: 100%;
+  word-break: break-all;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin-bottom: 2.8rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.calculator__result {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5.5rem;
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 7.6rem;
+}
+
+.calculator__result::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: calc(100% + 1.8rem);
+  height: 0.2rem;
+  width: 100%;
+  background-color: #ffffff;
+  opacity: 0.35;
+}
+
+.calculator__buttons {
+  height: 46.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem 2rem;
+  justify-items: center;
+}
+
+.button {
+  width: 8rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background-color: #ffffff1f;
+}
+
+.button_equal {
+  background-color: #ffffff;
+  color: #2b589a;
+}
+
+.button_equal:hover {
+  background-color: #ffffff;
+}
